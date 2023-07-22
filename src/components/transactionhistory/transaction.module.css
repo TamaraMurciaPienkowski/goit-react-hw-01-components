@@ -1,0 +1,32 @@
+.wrapper {
+  margin: auto;
+  width: 50%;
+}
+.transactionHistory {
+  margin: 0px;
+  padding: 0px;
+  border-left: 1px solid rgb(69, 177, 217);
+  box-shadow: 4px 4px 4px rgb(79, 195, 237);
+}
+
+.head {
+  background-color: rgb(66, 165, 200);
+}
+
+.headDescription {
+  /* min-width: 200px; */
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.item {
+  padding: 10px;
+  box-shadow: 0px 0px 1px rgb(79, 195, 237);
+  color: rgb(128, 150, 159);
+}
+
+.tRow:nth-child(odd) {
+  background-color: rgb(153, 210, 231);
+}

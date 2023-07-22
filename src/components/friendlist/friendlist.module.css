@@ -1,0 +1,54 @@
+.wrapper {
+  margin: auto;
+  width: 50%;
+}
+
+.friendList {
+  list-style: none;
+}
+
+.friendListItem {
+  display: flex;
+  padding: 10px;
+  max-width: 200px;
+  border: 1px solid gray;
+  box-shadow: 5px 2px 5px gray;
+  margin-bottom: 5px;
+  border-radius: 2%;
+}
+.friendListItem:hover {
+  cursor: pointer;
+  border: 1px solid rgb(65, 122, 159);
+  box-shadow: 5px 2px 5px rgb(65, 122, 159);
+  transform: scale(1.1);
+}
+
+.paleIsOnline {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(15, 131, 15);
+  margin: 5px;
+  align-self: center;
+}
+
+.paleIsOffline {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(162, 22, 22);
+  margin: 5px;
+  align-self: center;
+}
+
+.avatar {
+  padding: 5px;
+  border: 1px solid none;
+  background-color: rgb(235, 232, 232);
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.name {
+  font-weight: bold;
+}
